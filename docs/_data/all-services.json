@@ -1,0 +1,50 @@
+[
+    {
+        "version": 20,
+        "name": "inrix-analytics",
+        "owner": "Ron",
+        "description": "sample yaml file",
+        "technologies": [
+            "python",
+            "Sumo-Logic"
+        ],
+        "github": "https://github.com/INRIX/analytics-mssc/actions/runs/2588158821",
+        "runbook": "https://inrix.atlassian.net/wiki/spaces/AN/pages/464019/Analytics+API+Services+Overview",
+        "productionUrl": "analytics-trips-api.prod.inrix.com",
+        "stageUrl": "analytics-trips-api.stage.inrix.com",
+        "qaUrl": "analytics-trips-api.qa.inrix.com",
+        "namespace": "backend",
+        "metricDashboard": [
+            "www.sumologic.com",
+            "www.cloudhealth.com"
+        ],
+        "dependencies": [
+            "www.inrix-roadway-roadway.com",
+            "inrix-fusion"
+        ]
+    },
+    {
+        "version": 20,
+        "name": "inrix-2",
+        "owner": "Ron",
+        "description": "sample yaml file",
+        "technologies": [
+            "python",
+            "Sumo-Logic"
+        ],
+        "github": "https://github.com/INRIX/analytics-mssc/actions/runs/2588158821",
+        "runbook": "https://inrix.atlassian.net/wiki/spaces/AN/pages/464019/Analytics+API+Services+Overview",
+        "productionUrl": "analytics-trips-api.prod.inrix.com",
+        "stageUrl": "analytics-trips-api.stage.inrix.com",
+        "qaUrl": "analytics-trips-api.qa.inrix.com",
+        "namespace": "backend",
+        "metricDashboard": [
+            "www.sumologic.com",
+            "www.cloudhealth.com"
+        ],
+        "dependencies": [
+            "www.inrix-roadway-roadway.com",
+            "inrix-fusion"
+        ]
+    },
+]

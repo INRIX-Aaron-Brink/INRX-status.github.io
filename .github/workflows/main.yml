@@ -23,4 +23,4 @@ jobs:
           aws-region: ${{ env.AWS_REGION }}
       - name:  Send email
         run: |
-          aws ses send-email --from aaron.brink@inrix.com --to aaron.brink@inrix.com --text "Hello!"
+          aws ses send-email --from aaron.brink@inrix.com --to aaron.brink@inrix.com --subject "Test email" --text "Hello!"
